@@ -1,0 +1,64 @@
+.noMansSky{
+    font-size: 35px;
+    color: red;
+}
+
+/* unvisited link */
+a:link {
+    color: #ff0000;
+    font-size: 30px;
+}
+
+/* visited link */
+a:visited {
+    color: #6d3cff;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    font-size: 30px;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    font-size: 30px;
+}
+
+header{
+    font-size: 35px;
+    color: red;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a>div { display: none; }
+a:hover>div { display: block; }
+
+.box--blue {
+    background-image: url("../img/box-vtile--blue.jpg");
+}
+figcaption {
+
+    display: table-caption;
+    caption-side: bottom;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.figure img {
+    max-width: 100%;
+}
+.figure {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: table;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}

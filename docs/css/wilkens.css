@@ -1,0 +1,64 @@
+body {
+    height: auto;
+    width: 960px;
+    padding: 20px;
+}
+table {
+    height: 23%;
+    width: 45%;
+    float: right;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th,td {
+    border: 1px solid black;
+}
+th:nth-child(2)  {
+   background-color: lightgreen;
+}
+th:nth-child(3) {
+    background-color: lightblue;
+}
+nav {
+    height: auto;
+    width: 960px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+main {
+    height: auto;
+    width: 960px;
+    border: 1px black solid;
+}
+article {
+    width: 45%;
+    float: left;
+}
+footer {
+    height: auto;
+    width: 960px;
+    background-color: black;
+    padding: 20px;
+}
+a:link {
+    color: white;
+    font-size: 20px;
+}
+
+/* visited link */
+a:visited {
+    color: #6d3cff;
+    font-size: 20px;
+}
+
+/* mouse over link */
+a:hover {
+    color: deepskyblue;
+    font-size: 20px;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    font-size: 20px;
+}

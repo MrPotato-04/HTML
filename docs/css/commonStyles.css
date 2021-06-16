@@ -1,0 +1,27 @@
+﻿
+/* unvisited link */
+    a:link {
+        color: #ff0000;
+        font-size: 30px;
+    }
+
+    /* visited link */
+    a:visited {
+        color: #6d3cff;
+        font-size: 30px;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: hotpink;
+        font-size: 30px;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+        font-size: 30px;
+    }
+    .textshadow {
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

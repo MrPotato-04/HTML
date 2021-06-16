@@ -1,0 +1,36 @@
+body {
+    background-color: #ffeaea;
+    width: 1150px;
+}
+nav {
+    padding-bottom: 15px;
+}
+img {
+    padding: 5px;
+}
+#apple,#collection {
+    width: 45%;
+    float: left;
+}
+#collection {
+    right: -30px;
+    position: relative;
+}
+#appleImg {
+    height: 358px;
+}
+section div img {
+    float: left;
+    width: 45%;
+}
+h1 {
+    width: 50%;
+}
+article {
+    width: 30%;
+    padding: 1.5px;
+    float: left;
+}
+article img {
+    width: 95%;
+}
