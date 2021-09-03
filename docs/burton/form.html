@@ -11,23 +11,60 @@
 </header>
 <section>
   <form action="https://www.savatarian.com/html5/form.php" method="get">
-    <ul>
-      <li>
-        <label for="voornaam">voornaam</label>
-        <input type="text" name="voornaam" id="voornaam">
-      </li>
-      <li>
-        <label for="tussenvoegsel">tussenvoegsel</label>
-        <input type="text" name="voornaam" id="tussenvoegsel">
-      </li>
-      <li>
-        <label for="achternaam">achternaam</label>
-        <input type="text" name="achternaam" id="achternaam">
-      </li>
-      <li>
-        <input type="radio" name="geslacht">
-      </li>
-    </ul>
+    <p>
+      <label for="voornaam">Voornaam</label>
+      <input type="text" name="voornaam" id="txtinput">
+    </p>
+    <br>
+    <p>
+      <label for="tussenvoegsel">Tussenvoegsel</label>
+      <input type="text" name="tussenvoegsel" id="txtinput">
+    </p>
+    <br>
+    <p>
+      <label for="achternaam">Achternaam</label>
+      <input type="text" name="achternaam" id="txtinput">
+    </p>
+    <br>
+    <p>
+    <label for="geslacht">Geslacht</label>
+      <input type="radio" name="geslacht" value="man"/>
+      &nbsp;Man
+      <input type="radio" name="geslacht" value="vrouw"/>
+      &nbsp;Vrouw
+    </p>
+    <br>
+    <p>
+      <label for="ogen">Kleur ogen</label>
+      <select name="ogen">
+        <option>Groen</option>
+        <option>Blauw</option>
+        <option>Bruin</option>
+      </select>
+    </p>
+    <br>
+    <p>
+      <label for="geboortedatum">Geboortedatum</label>
+      <input type="date" name="geboortedatum">
+    </p>
+    <br>
+    <p>
+      <label for="omschrijving">Omschrijving</label>
+      <textarea name="omschrijving"></textarea>
+    </p>
+    <div class="checkboxdiv">
+      <label for="lekker-eten">Lekker eten:</label>
+      <input type="checkbox" name="lekker-eten" value="patat">
+      <span class="checkbox">Patat</span><br>
+      <input type="checkbox" name="lekker-eten" value="bruine bonen">
+      <span class="checkbox">Bruine bonen</span><br>
+      <input type="checkbox" name="lekker-eten" value="linzen">
+      <span class="checkbox">Linzen</span>
+    </div>
+    <div class="submit-cancel">
+      <button type="reset">Annuleer</button>
+      <input type="submit" value="Ok">
+    </div>
   </form>
 </section>
 

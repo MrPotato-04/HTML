@@ -1,12 +1,8 @@
-form ul {
-    list-style-type: none;
-    padding: 0;
-}
-form ul li {
-    height: 10px;
-    padding: 10px;
-}
-form ul li input {
-    position: absolute;
-    left: 15px;
-}
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+textarea { width: fit-content;}
+
+.checkboxdiv {position: relative;top: -275px; right: -400px;}
+.submit-cancel {position: relative; right: -400px;}
